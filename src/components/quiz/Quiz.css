@@ -1,0 +1,38 @@
+
+
+
+.topContainer {
+    width: 600px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, #ffcc00, #ff6600);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.topContainer ul {
+    list-style-type: none;
+    width:90%;   
+}
+
+
+.topContainer ul li {
+    height:auto;
+    text-align: left;
+    white-space: normal;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.topContainer button {
+    width: 20%;
+    height: 10%;
+}
