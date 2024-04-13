@@ -21,7 +21,7 @@
 }
 
 
-.topContainer ul li {
+.topContainer ul .choice {
     height:auto;
     text-align: left;
     white-space: normal;
@@ -36,3 +36,5 @@
     width: 20%;
     height: 10%;
 }
+
+
