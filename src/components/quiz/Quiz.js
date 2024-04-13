@@ -45,13 +45,11 @@ const Quiz = () => {
         setQuestion(questions[count]);
       }, [count]);
 
-    useEffect(()=> {
-        console.log(result);
-    },[result]);
-
     return(
 
         <div className="topContainer">
+
+        {(count !== 20) ?<>
 
         <h1>Quiz App</h1>
         <hr/>
@@ -67,6 +65,15 @@ const Quiz = () => {
             }}>Next</button>
 
         <p>{count+1} of {questions.length} questions</p>
+
+        </>:
+        <>
+        <h3>Your result is</h3> 
+        <h2>{result}/{questions.length}</h2>
+
+        </>
+        }
+
         </div>
     );
 
